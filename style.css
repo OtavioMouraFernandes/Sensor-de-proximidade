@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Text+Me+One&display=swap");
+
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Odibee Sans", sans-serif;
+    color: #e0f3ff;
+    margin-top: 50px;
+}
+
+body {
+    background-color: rgb(23, 37, 59);
+    padding: 0px;
+    margin: 0;
+}
+
+
+.footer {
+    background-color: #e0f3ff;
+    margin-top: 100%;
+    padding: 0px;
+    padding: 5px;
+    text-align: bottom;
+    margin-bottom: 0%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.texto {
+    background-color: #4c7792;
+    font-family:"Montserrat", sans-serif;
+    padding: 30px;
+    
+    
+
+}
+
+.paragrafo{
+    background-color: #e0f3ff;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.botaotxt {
+    font-family:"Montserrat", sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 20px;
+}
+.botao{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.botao2 {
+    margin-top: 20px;
+   text-align: center;
+   justify-content: center;
+    width: 100%;
+    display: flex;
+    font-family:"Montserrat", sans-serif ;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+
+
+a{
+    background-color: #e0f3ff;
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bolder;
+    margin: 20px;
+    margin-top: 0px;
+    text-decoration: none;
+    list-style: none;
+    border: #283e4b;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    font-weight: 40px;
+    justify-content: center;
+      transition: transform 0.3s ease, color 0.3s ease; 
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.5); 
+}
+a:hover{
+    transform: translateY(-5px); 
+    background-color: rgb(103, 120, 129);
+}
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#video {
+    width: 90vw;
+    height: 60vh;
+    object-fit: cover;
+}
