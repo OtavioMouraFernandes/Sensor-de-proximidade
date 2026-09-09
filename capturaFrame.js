@@ -42,5 +42,5 @@ function capturarFrames(){
 }
 
 video.addEventListener('canplay', (event) =>{
-    setInterval(capturarFrames, 200)
+    setInterval(capturarFrames, 2000)
 }, {once: true});
